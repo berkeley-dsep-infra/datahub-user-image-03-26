@@ -3,7 +3,7 @@ name: datahub
 # the conda packages that you need installed in your environment.
 channels:
   - conda-forge
-  
+
 dependencies:
   - sqlite>=3.40
   - libsqlite>=3.40
@@ -105,7 +105,7 @@ dependencies:
 
   # Engineering 7 https://github.com/berkeley-dsep-infra/datahub/issues/5337
   - pydantic==2.10.5
-  
+
   # Econ 148, https://github.com/berkeley-dsep-infra/datahub/issues/6791
   - jupysql==0.10.17
 
