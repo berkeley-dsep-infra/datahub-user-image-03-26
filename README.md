@@ -2,7 +2,7 @@
 
 This is the repository for the datahub user images.
 
-See this repository's [CONTRIBUTING.md](https://github.com/berkeley-dsep-infra/datahub-user-image-03-26/blob/main/CONTRIBUTING.md) for instructions. That information will eventually be migrated to docs.datahub.berkeley.edu.
+See this repository's [CONTRIBUTING.md](https://github.com/yijunge-ucb/datahub-user-image-03-26/blob/main/CONTRIBUTING.md) for instructions. That information will eventually be migrated to docs.datahub.berkeley.edu.
 
 # building the image locally
 
