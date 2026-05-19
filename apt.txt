@@ -1,6 +1,5 @@
 # other editors, pagers, tools
 micro
-tini
 nano
 
 # for timing builds
@@ -18,11 +17,8 @@ libarmadillo-dev
 # for notebook-as-pdf
 libx11-xcb1
 libxtst6
-libxrandr2
-libasound2
 libpangocairo-1.0-0
 libatk1.0-0
-libatk-bridge2.0-0
 libgtk-3-0
 libxss1
 fonts-noto-color-emoji
@@ -48,8 +44,3 @@ musescore3
 libgeos-dev
 libproj-dev
 libmysqlclient-dev
-
-# R package magick
-# Unknown requirement. Perhaps remove this and the R magick package during a
-# maintenance period.
-libmagick++-dev
