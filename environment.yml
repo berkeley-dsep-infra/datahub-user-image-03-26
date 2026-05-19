@@ -10,7 +10,6 @@ dependencies:
   - appmode==1.0.0
   - ipykernel = 6.29.5
   - jupyterlab-geojson==3.4.0
-  - jupyter-rsession-proxy==2.2.1
   - requests==2.32.3
   - traitlets=5.14.3
 
