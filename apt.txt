@@ -1,6 +1,5 @@
 # other editors, pagers, tools
 micro
-tini
 nano
 
 # for timing builds
@@ -45,8 +44,3 @@ musescore3
 libgeos-dev
 libproj-dev
 libmysqlclient-dev
-
-# R package magick
-# Unknown requirement. Perhaps remove this and the R magick package during a
-# maintenance period.
-libmagick++-dev
