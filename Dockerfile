@@ -1,4 +1,4 @@
-FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-r-image:97e1ddc
+FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-r-image:dd838f2
 
 USER root
 RUN apt-get update && apt-get install -y tini && rm -rf /var/lib/apt/lists/*
@@ -36,7 +36,7 @@ USER ${NB_USER}
 WORKDIR /home/${NB_USER}
 
 COPY install.R /tmp/install.R
-RUN r /tmp/install.R
+RUN Rscript /tmp/install.R
 
 RUN rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
