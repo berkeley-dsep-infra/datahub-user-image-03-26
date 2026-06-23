@@ -44,3 +44,6 @@ musescore3
 libgeos-dev
 libproj-dev
 libmysqlclient-dev
+
+# DH-722, R package fs (needed by googlesheets4)
+libuv1
