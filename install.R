@@ -210,7 +210,10 @@ packages = list(
   "tm" = "0.7-15",
   "wordcloud" = "2.6",
   "xgboost" = "1.7.8.1",
-  "SentimentAnalysis" = "1.3-5"
+  "SentimentAnalysis" = "1.3-5",
+
+  # DH-722
+  "googlesheets4" = "1.1.2"
 )
 
 install_packages_with_versions(packages)
