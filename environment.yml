@@ -99,7 +99,7 @@ dependencies:
   - geojson==3.2.0
   - pyproj==3.7.2
 
-  # CY PLAN 101
+  # CYPLAN 101; Fall 2026; https://github.com/berkeley-dsep-infra/datahub/issues/8372
   - osmnx==2.1.1
   - lonboard==0.16.0
   - overturemaps==1.0.1
