@@ -81,7 +81,9 @@ packages = list(
   "ncdf4" = "1.23",
   "ncmeta" = "0.4.0",
   "nlme" = "3.1-166",
-  "ottr" = "1.5.1",
+
+  # polsci 3, fall 2026, https://github.com/berkeley-dsep-infra/datahub/issues/8375
+  "ottr" = "1.6.0",
   "packrat" = "0.9.2",
   "pander" = "0.6.5",
   "pbdZMQ" = "0.3-13",
@@ -91,7 +93,9 @@ packages = list(
   "pryr" = "0.1.6",
   "rapportools" = "1.1",
   "raster" = "3.6-30",
-  "rdrobust" = "2.2",
+
+  # polsci 3, fall 2026, https://github.com/berkeley-dsep-infra/datahub/issues/8135
+  "rdrobust" = "3.0.0",
   "readr" = "2.1.5",
   "readxl" = "1.4.3",
   "rematch" = "2.0.0",
@@ -154,9 +158,9 @@ packages = list(
   # "Fall '23 and beyond"
   "mosaicData" = "0.20.4",
 
-  # From https://github.com/berkeley-dsep-infra/datahub/issues/5496
-  # pol sci 3, spring 2024 and into the future
-  "estimatr" = "1.0.4",
+  # polsci 3, fall 2026
+  # https://github.com/berkeley-dsep-infra/datahub/issues/8376
+  "estimatr" = "1.0.6",
 
   # From https://github.com/berkeley-dsep-infra/datahub/issues/3757
   # econ 140, fall 2022 and into the future
