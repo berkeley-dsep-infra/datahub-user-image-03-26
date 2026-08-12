@@ -33,7 +33,7 @@ dependencies:
   - pillow=11.1.0
 
   # modules
-  - beautifulsoup4==4.12.3
+  - beautifulsoup4==4.15.0
 
   # PS88, Fall '21 and "future iterations of the class."
   # https://github.com/berkeley-dsep-infra/datahub/issues/2925
