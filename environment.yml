@@ -20,7 +20,7 @@ dependencies:
   # We don't want to have conda packages depend on pip packages if possible
   - decorator=5.1.1
   - networkx=3.4.2
-  - nltk=3.9.1
+  - nltk=3.10.2
   - spacy==3.8.2
 
   # [DH-384], L&S 22, Fall 2024
