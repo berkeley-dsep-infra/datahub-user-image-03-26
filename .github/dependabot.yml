@@ -5,3 +5,4 @@ updates:
     directory: "/" # Path to the directory containing environment.yml
     schedule:
       interval: "weekly" # Check for updates weekly (can also be 'daily' or 'monthly')
+    open-pull-requests-limit: 0
