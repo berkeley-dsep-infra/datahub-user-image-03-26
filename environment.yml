@@ -14,7 +14,7 @@ dependencies:
   - traitlets=5.14.3
 
   # jupyterbook
-  - mystmd==1.3.19
+  - mystmd==1.10.1
 
   # Base scientific packages that other conda packages we install depend on
   # We don't want to have conda packages depend on pip packages if possible
