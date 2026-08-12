@@ -53,7 +53,7 @@ dependencies:
   # [DH-364] https://github.com/berkeley-dsep-infra/datahub/issues/6155
   - openpyxl==3.1.5
   # [DH-393] https://github.com/berkeley-dsep-infra/datahub/issues/6346
-  - pyogrio==0.10.0
+  - pyogrio==0.13.0
 
   # Google spreadsheets, Eric Van Dusen / Keeley Takimoto / Modules
   - gspread-pandas==2.2.3
