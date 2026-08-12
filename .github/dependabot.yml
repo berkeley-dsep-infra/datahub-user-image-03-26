@@ -1,0 +1,9 @@
+version: 2
+updates:
+
+# Configure updates for Conda environment files (environment.yml)
+
+* package-ecosystem: "conda"
+directory: "/" # Path to the directory containing environment.yml
+schedule:
+interval: "weekly" # Options: daily, weekly, monthly
