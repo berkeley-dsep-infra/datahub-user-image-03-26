@@ -43,8 +43,14 @@ musescore3
 libuv1-dev
 libuv1
 
-# additional R packages 
+# additional R packages
 # https://github.com/berkeley-dsep-infra/datahub/issues/5061
 libgeos-dev
 libproj-dev
 libmysqlclient-dev
+
+# R package magick (dependency of summarytools)
+libmagick++-6.q16-dev
+
+# R package gert (dependency of devtools)
+libgit2-dev
