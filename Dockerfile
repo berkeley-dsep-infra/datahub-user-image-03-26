@@ -1,4 +1,4 @@
-FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-r-image:0d6b5ea
+FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-r-image:45e46c9
 
 USER root
 RUN apt-get update && apt-get install -y tini && rm -rf /var/lib/apt/lists/*
