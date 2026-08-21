@@ -6,3 +6,10 @@ updates:
     schedule:
       interval: "weekly" # Check for updates weekly (can also be 'daily' or 'monthly')
     open-pull-requests-limit: 0
+
+  # Nested pip dependencies inside environment.yml
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 0  
