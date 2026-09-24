@@ -109,6 +109,12 @@ dependencies:
   - pysal==25.7
   - highlight_text==0.2
 
+  # ESPM 154; Fall 2025; DH-794
+  - bitarray==3.10.1
+  - msprime==1.4.4
+  - shapely==2.1.2
+  - tskit==1.0.3
+
   - pip:
       # Measure popularity of different packages in our hubs
       # https://discourse.jupyter.org/t/request-for-implementation-instrument-libraries-actively-used-by-users-on-a-jupyterhub/7994?u=yuvipanda
@@ -136,5 +142,9 @@ dependencies:
 
       # [DH-488], Legal Studies 123, https://github.com/berkeley-dsep-infra/datahub/issues/6964
       - gensim==4.4.0
+
+      # ESPM 154
+      - nlmpy==1.2.0
+      - geonomics==1.4.9
 
       # ATTEMPT TO PUT NEW PACKAGES IN THE CONDA LIST ABOVE FIRST, RATHER THAN PIP

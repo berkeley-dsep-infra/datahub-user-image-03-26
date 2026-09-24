@@ -26,6 +26,16 @@ RUN conda env update  -n notebook -f /tmp/environment.yml && \
     conda clean -afy && rm -rf /tmp/environment.yml
 
 USER root
+ENV VSCODE_EXTENSIONS=${CONDA_DIR}/envs/notebook/share/code-server/extensions
+RUN install -d -o ${NB_USER} -g ${NB_USER} ${VSCODE_EXTENSIONS}
+
+USER ${NB_USER}
+RUN code-server --extensions-dir ${VSCODE_EXTENSIONS} \
+    --install-extension ms-toolsai.jupyter \
+    --install-extension ms-python.python \
+    --install-extension REditorSupport.r
+
+USER root
 RUN rm -rf /tmp/*
 
 ENV REPO_DIR=/srv/repo
@@ -35,9 +45,9 @@ USER ${NB_USER}
 WORKDIR /home/${NB_USER}
 
 COPY install.R /tmp/install.R
-RUN Rscript /tmp/install.R
+RUN Rscript /tmp/install.R && \
+    rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
-RUN rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 EXPOSE 8888
 ENTRYPOINT ["tini", "--"]
