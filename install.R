@@ -200,7 +200,21 @@ packages <- c(
   "SentimentAnalysis",
 
   # DH-722
-  "googlesheets4"
+  "googlesheets4",
+
+  # DH-772 , MBA 247, Fall 2026
+  "languageserver",
+
+  # DH-794, ESPM 154, Fall 2026
+  "ambient",
+  "AutoPlots",
+  "bcm-uga/TESS3_encho_sen",
+  "fields",
+  "gdistance",
+  "gdm",
+  "GWmodel",
+  "TheWangLab/algatr",
+  "wingen"
 )
 
 failed_packages <- c()
