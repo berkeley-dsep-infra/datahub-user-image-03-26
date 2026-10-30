@@ -116,7 +116,7 @@ dependencies:
   - tskit==1.0.3
 
   # Fix html export; issue #8598
-  - soupsieve<2.5
+  - soupsieve==2.3.2.post1
   - nbconvert==7.16.4
 
   - pip:
