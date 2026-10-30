@@ -115,6 +115,10 @@ dependencies:
   - shapely==2.1.2
   - tskit==1.0.3
 
+  # Fix html export; issue #8598
+  - soupsieve==2.3.2.post1
+  - nbconvert==7.16.4
+
   - pip:
       # Measure popularity of different packages in our hubs
       # https://discourse.jupyter.org/t/request-for-implementation-instrument-libraries-actively-used-by-users-on-a-jupyterhub/7994?u=yuvipanda
