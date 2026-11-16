@@ -151,4 +151,7 @@ dependencies:
       - nlmpy==1.2.0
       - geonomics==1.4.9
 
+      # E178/ME276DS, Fall 2026, issue #8636
+      - tensorflow-cpu==2.21.0
+
       # ATTEMPT TO PUT NEW PACKAGES IN THE CONDA LIST ABOVE FIRST, RATHER THAN PIP
