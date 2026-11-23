@@ -119,6 +119,9 @@ dependencies:
   - soupsieve==2.3.2.post1
   - nbconvert==7.16.4
 
+  # COMPSS 221; Spring 2027; issue #8625
+  - xgboost==3.2.0
+
   - pip:
       # Measure popularity of different packages in our hubs
       # https://discourse.jupyter.org/t/request-for-implementation-instrument-libraries-actively-used-by-users-on-a-jupyterhub/7994?u=yuvipanda
